@@ -1,0 +1,65 @@
+.blog{
+
+  @include desktop(){
+    .arrow{
+      display: none;
+    }
+  }
+
+  @include laptop(){
+    &__content{
+      flex-direction: column;
+
+      &-item{
+        width: 100%;
+      }
+    }
+
+    &__description{
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .btn{
+      margin-top: 10px;
+    }
+  }
+
+  @include tablet(){
+    &__pictures-item1{
+      img{
+        max-width: 240px;
+        height: 240px;
+      }
+    }
+
+    &__pictures-item2{
+      img{
+        max-width: 112px;
+        height: 112px;
+      }
+    }
+  }
+
+  @include mobile(){
+    &__content-item{
+      flex-direction: column;
+    }
+
+    &__pictures-item2{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 13px 0 0 35px ;
+    }
+
+    .blog__content {
+      padding-right: 10px;
+      margin-bottom: 25px;
+
+      p{
+        width: 90%;
+      }
+    }
+  }
+}

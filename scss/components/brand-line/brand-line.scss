@@ -1,0 +1,29 @@
+.brand-line{
+
+  &__wrapper {
+    padding: 60px 0;
+  }
+
+  ul{
+    padding: 0;
+  }
+
+  li{
+    @extend .link-unstyled;
+    margin-right: 75px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  svg{
+    width: 120px;
+    height: 100%;
+    fill: $svg-color;
+
+    &:hover{
+      fill:$svg-hover-color;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.app{
+  $text-color-description: #ADB3CB;
+
+  background-image: url('../assets/pictures/features.svg');
+
+  &__wrapper{
+    padding: 150px 0;
+  }
+
+  .row{
+    justify-content: center;
+  }
+
+  h3{
+    margin-top: 20px;
+  }
+
+  &__item{
+    width: calc(100%/4);
+
+    img{
+      max-width: 69px;
+      width: 100%;
+    }
+
+    h4{
+      margin: 33px 0 25px 0;
+    }
+  }
+
+  &__sections{
+    margin-top: 90px;
+
+    p{
+      max-width: 140px;
+      @extend %font-open-sans-semi-bold;
+      font-size: $font-size_3xs;
+      color: $text-color-description;
+    }
+
+    .line{
+      margin: 0 20px;
+    }
+  }
+
+  &__button{
+    margin-top: 92px;
+
+    .line{
+      margin: 0 17px 0 16px;
+    }
+
+    .btn{
+      font-size: $font-size_xs;
+    }
+
+    .btn-accent{
+      @include btn-action-background($second-bacground-color,$second-text-color, #7D3030);
+      @include btn-action-text($second-text-color,white,white);
+    }
+
+    .btn-primary{
+      text-shadow: none;
+    }
+
+    p{
+      @extend %font-open-sans-semi-bold;
+      font-size: $font-size_3xs;
+    }
+  }
+}

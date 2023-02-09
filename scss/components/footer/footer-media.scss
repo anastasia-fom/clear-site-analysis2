@@ -1,0 +1,65 @@
+.footer {
+
+  @include laptop(){
+    &__logo{
+      align-items: flex-start;
+    }
+
+    &__main-menu {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+    }
+
+    &__social{
+      ul{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  @include mobile(){
+    .row{
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &__col{
+      width: 100%;
+      flex-direction: column;
+
+      p{
+        font-size: $font-size_xs;
+      }
+    }
+
+    &__main-menu{
+      margin-left: 10px;
+
+      ul{
+        gap: 15px;
+
+        a{
+          font-size: $font-size_xs;
+        }
+      }
+    }
+
+    &__social{
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    &__social ul{
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    .btn{
+      text-align: center;
+    }
+  }
+}

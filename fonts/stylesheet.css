@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Medium.eot');
+    src: local('Quicksand Medium'), local('Quicksand-Medium'),
+        url('Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Medium.woff2') format('woff2'),
+        url('Quicksand-Medium.woff') format('woff'),
+        url('Quicksand-Medium.ttf') format('truetype'),
+        url('Quicksand-Medium.svg#Quicksand-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Light.eot');
+    src: local('Quicksand Light'), local('Quicksand-Light'),
+        url('Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Light.woff2') format('woff2'),
+        url('Quicksand-Light.woff') format('woff'),
+        url('Quicksand-Light.ttf') format('truetype'),
+        url('Quicksand-Light.svg#Quicksand-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Bold.eot');
+    src: local('Quicksand Bold'), local('Quicksand-Bold'),
+        url('Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Bold.woff2') format('woff2'),
+        url('Quicksand-Bold.woff') format('woff'),
+        url('Quicksand-Bold.ttf') format('truetype'),
+        url('Quicksand-Bold.svg#Quicksand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.eot');
+    src: local('Quicksand Regular'), local('Quicksand-Regular'),
+        url('Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Regular.woff2') format('woff2'),
+        url('Quicksand-Regular.woff') format('woff'),
+        url('Quicksand-Regular.ttf') format('truetype'),
+        url('Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.eot');
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff'),
+        url('OpenSans-Bold.ttf') format('truetype'),
+        url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiBold.eot');
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+        url('OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff'),
+        url('OpenSans-SemiBold.ttf') format('truetype'),
+        url('OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype'),
+        url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype'),
+        url('Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

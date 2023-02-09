@@ -1,0 +1,29 @@
+.faq {
+
+  @include laptop(){
+    .accordion {
+      max-width: 600px;
+
+      &-body {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+
+        p {
+          max-width: inherit;
+          text-align: center;
+        }
+
+        .btn {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  @include tablet(){
+    .accordion {
+      max-width: 500px;
+    }
+  }
+}

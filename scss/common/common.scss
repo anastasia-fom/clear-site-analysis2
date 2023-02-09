@@ -1,0 +1,162 @@
+body {
+  @extend %font-roboto-regular;
+  color: $main-font-color;
+  font-size: $font-size_base;
+}
+
+.container {
+  max-width: $content-width;
+  width: 100%;
+  padding: 0 $horizontal_offset;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-unstyled {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end{
+  align-items: flex-end;
+}
+
+.align-self-center{
+  align-self: center;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.justify-content-flex-start{
+  justify-content: flex-start;
+}
+
+.justify-content-flex-end{
+  justify-content: flex-end;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.btn {
+  @extend .link-unstyled;
+  @extend %font-quicksand-bold;
+  padding: 13px 21px;
+  border-radius: 2px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+  border: none;
+
+  &:hover {
+    transition: .3s;
+  }
+
+  &.btn-primary {
+
+    @include btn-action-background($sub_menu_bg, $accent-color, $active-color);
+    @include btn-action-text($btn-text-color, white, white);
+
+    &:hover {
+      transition: $transition;
+    }
+
+    &:active {
+      transition: $transition;
+    }
+  }
+
+  &.btn-save{
+    text-shadow: none;
+    padding: 16px 62px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+    @include btn-action-background(#4D6CE1, $active-color, $sub_menu_bg);
+    @include btn-action-text(white, white, $active-color);
+  }
+}
+
+.subtitle{
+  @extend %font-roboto-medium;
+  font-size: $font-size_extra-small;
+  color: $text-color_subtitle;
+  text-transform: uppercase;
+}
+
+.highlight{
+  @extend %font-quicksand-medium;
+}
+
+.p-style{
+  line-height: 29px;
+  letter-spacing: 0.03em;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  @extend %font-quicksand-light;
+  font-size: $font-size_2xl;
+  text-align: center;
+  color: $text-color_subtitle;
+}
+
+h2{
+  @extend %font-quicksand-regular;
+  font-size: $font-size_xl;
+  color: $text-color_subtitle;
+}
+
+h3{
+  @extend %font-quicksand-medium;
+  font-size: $font-size_lg;
+  color: $text-color_subtitle;
+}
+
+h4{
+  @extend %font-open-sans-bold;
+  font-size: $font-size_sm;
+  color: #4074F8;
+}
+
+h5{
+  @extend %font-quicksand-bold;
+  color: $text-color_subtitle;
+}
+
+.m_logo{
+  @include svg_style(#757E9A, #6188FF);
+}
+
+
+
+

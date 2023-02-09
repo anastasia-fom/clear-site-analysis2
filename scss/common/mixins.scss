@@ -1,0 +1,81 @@
+@mixin a-style($prop-name, $default-state, $hover-state, $active-state ) {
+
+  @if($prop-name == 'bg') {
+    background-color: $default-state;
+  } @else {
+    color: $default-state;
+  }
+
+  &:hover {
+    @if($prop-name == 'bg') {
+      background-color: $hover-state;
+    } @else {
+      color: $hover-state;
+    }
+
+    transition: $transition;
+  }
+
+  &:active {
+    @if($prop-name == 'bg') {
+      background-color: $active-state;
+    } @else {
+      color: $active-state;
+    }
+
+    transition: $transition;
+  }
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin push--auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+@mixin svg_style($fill-color, $fill-color-hover) {
+  svg {
+    fill: $fill-color;
+
+    &:hover {
+      fill: $fill-color-hover;
+    }
+  }
+}
+
+@mixin btn-action-background($main-color-btn, $hover-color-btn, $active-color-btn){
+  background-color:$main-color-btn;
+
+  &:hover{
+    background-color: $hover-color-btn;
+  }
+
+  &:active{
+    background-color: $active-color-btn;
+  }
+}
+
+@mixin btn-action-text($main-color-text, $hover-color-text, $active-color-text){
+  color: $main-color-text;
+
+  &:hover{
+    color:$hover-color-text;
+  }
+
+  &:active{
+    color: $active-color-text;
+  }
+}
+
+@mixin margin-auto(){
+  margin-left: auto;
+  margin-right: auto;
+}
+
